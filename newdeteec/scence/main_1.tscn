@@ -1,6 +1,7 @@
-[gd_scene load_steps=10 format=3 uid="uid://rt6ve4bi5m0o"]
+[gd_scene load_steps=11 format=3 uid="uid://rt6ve4bi5m0o"]
 
 [ext_resource type="Texture2D" uid="uid://bpe8ww4uppc8g" path="res://assest/evn/office/office.png" id="1_hcx0i"]
+[ext_resource type="Texture2D" uid="uid://cm8he2o1yrunc" path="res://assest/evn/office/door.png" id="2_3rkk0"]
 [ext_resource type="PackedScene" uid="uid://beseknmdd6vdu" path="res://scence/player.tscn" id="2_7lkri"]
 [ext_resource type="Texture2D" uid="uid://bg2o7k5lgnsc6" path="res://assest/evn/office/tile.png" id="2_53g57"]
 [ext_resource type="PackedScene" uid="uid://cybxjrpfchipr" path="res://scence/desk.tscn" id="3_3uhcl"]
@@ -3490,3 +3491,7 @@ scale = Vector2(1, 11.1218)
 visible = false
 position = Vector2(2009, -274)
 scale = Vector2(1, 11.1218)
+
+[node name="Door" type="Sprite2D" parent="."]
+position = Vector2(1329, 216)
+texture = ExtResource("2_3rkk0")
