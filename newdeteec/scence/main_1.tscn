@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://rt6ve4bi5m0o"]
+
+[ext_resource type="Texture2D" uid="uid://cokxxhofdlnly" path="res://assest/player(detective)/player.png" id="1_4bedn"]
+
+[node name="main1" type="Node2D"]
+
+[node name="Player" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(-582, 902)
+scale = Vector2(3, 3)
+texture = ExtResource("1_4bedn")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(571, 376)
+zoom = Vector2(0.4, 0.4)

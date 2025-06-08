@@ -11,5 +11,12 @@ config_version=5
 [application]
 
 config/name="newdeteec"
+run/main_scene="res://scence/main_1.tscn"
 config/features=PackedStringArray("4.3", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_height=748
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
