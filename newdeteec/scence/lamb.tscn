@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://df02053my0i6r"]
+
+[ext_resource type="Texture2D" uid="uid://vvn3ybx3odnv" path="res://assest/evn/office/Sprite-0014.png" id="1_x5mfu"]
+[ext_resource type="Texture2D" uid="uid://cnmhv7ke4x7p0" path="res://assest/evn/office/lighr.png" id="2_f1dt2"]
+
+[node name="lamb" type="Node2D"]
+
+[node name="Sprite-0014" type="Sprite2D" parent="."]
+texture_filter = 1
+position = Vector2(221, 67)
+scale = Vector2(2, 2)
+texture = ExtResource("1_x5mfu")
+
+[node name="PointLight2D" type="PointLight2D" parent="."]
+position = Vector2(219, 781)
+scale = Vector2(3.28125, 3.55729)
+energy = 2.0
+texture = ExtResource("2_f1dt2")
